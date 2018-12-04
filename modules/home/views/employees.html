@@ -1,0 +1,64 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand col-md-2" href="javascript:void(0)">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-9 ml-sm-auto col-lg-10" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a id="employee" class="nav-link" href="javascript:void(0)">Employees <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+            <a href="#" class="logout btn btn-link my-2 my-sm-0">Logout</a>
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid mt-4">
+        <!-- Content here -->
+        <div class="row" ng-controller="EmployeesCtrl">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a  ng-class="{'active': filterBy === ''}" class="nav-link active"  ng-click="orderBy('')">
+                        All<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a  ng-class="{'active': filterBy == 'Management'}" class="nav-link" ng-click="orderBy('Management')">
+                        Management
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a ng-class="{'active': filterBy == 'Platform'}" class="nav-link"  ng-click="orderBy('Platform')">
+                        Platform
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a ng-class="{'active': filterBy == 'Apps'}" class="nav-link"  ng-click="orderBy('Apps')">
+                        Apps
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a ng-class="{'active': filterBy == 'Analytics'}" class="nav-link"  ng-click="orderBy('Analytics')">
+                        Analytics
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="employee-info shadow-sm p-3 mb-5 bg-white rounded" ng-repeat="e in employees | filter:filterBy">
+                    <div>Name:     <span>{{e.name}}</span></div>
+                    <div>Position: <span>{{e.position}}</span></div>
+                    <div>Team:     <span>{{e.team}}</span></div>
+                </div>
+            </main>
+        </div>
+</div>
+
+<footer class="footer">
+        <span>OSeven test - George Simos</span>
+</footer>

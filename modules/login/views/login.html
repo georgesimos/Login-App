@@ -1,0 +1,11 @@
+<div class="form-login">
+    <form class="text-center" ng-controller="LoginController" ng-submit="submit()">
+        <img src="../../../assets/images/logo.png" alt="">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="text" id="username" class="form-control" placeholder="Username" required="" autofocus="" ng-model="regObj.username">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Password" required="" ng-model="regObj.password">
+        <button class="btn btn-lg btn-block" type="submit">Login</button>
+    </form>
+</div>

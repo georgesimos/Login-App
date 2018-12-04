@@ -1,0 +1,86 @@
+[
+	{
+		"id" : 1,
+		"name" : "Benjamin",
+		"position" : "Head of Engineering",
+		"team" : "Management"
+	},
+	{
+		"id" : 2,
+		"name" : "Vassilis",
+		"position" : "CEO",
+		"team" : "Management"
+	},
+	{
+		"id" : 3,
+		"name" : "Manolis",
+		"position" : "Team leader",
+		"team" : "Analytics"
+	},
+	{
+		"id" : 4,
+		"name" : "Panos",
+		"position" : "Software Engineer",
+		"team" : "Platform"
+	},
+	{
+		"id" : 5,
+		"name" : "Nick",
+		"position" : "Back-end developer",
+		"team" : "Apps"
+	},
+	{
+		"id" : 6,
+		"name" : "Leda",
+		"position" : "Head of Design",
+		"team" : "Apps"
+	},
+	{
+		"id" : 7,
+		"name" : "Thanos",
+		"position" : "Android developer",
+		"team" : "Apps"
+	},
+	{
+		"id" : 8,
+		"name" : "Alex",
+		"position" : "Back-end developer",
+		"team" : "Apps"
+	},
+	{
+		"id" : 9,
+		"name" : "Nick",
+		"position" : "iOS developer",
+		"team" : "Apps"
+	},
+	{
+		"id" : 10,
+		"name" : "Andrea",
+		"position" : "Front-end developer",
+		"team" : "Apps"
+	},
+	{
+		"id" : 11,
+		"name" : "Ioannis",
+		"position" : "Software Engineer",
+		"team" : "Platform"
+	},
+	{
+		"id" : 12,
+		"name" : "Odysseas",
+		"position" : "Software Engineer",
+		"team" : "Platform"
+	},
+	{
+		"id" : 13,
+		"name" : "Petros",
+		"position" : "Head of Modelling",
+		"team" : "Analytics"
+	},
+	{
+		"id" : 14,
+		"name" : "Dimitris",
+		"position" : "Data Scientist",
+		"team" : "Analytics"
+	}
+]

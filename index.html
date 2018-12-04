@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>oSeven</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-route.min.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="bg-light" ng-app="myApp">
+    <div ng-view></div>
+
+    <script src="src/app.js"></script>
+    <script src="modules/login/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>
