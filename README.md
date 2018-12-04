@@ -35,3 +35,10 @@ Start a connect web server.
 ```
 $ grunt connect
 ```
+
+## 4
+The app is now running. So you must see the login page use 
+{
+    "username": "admin",
+    "password": "admin"
+}
