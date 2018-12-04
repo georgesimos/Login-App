@@ -1,0 +1,24 @@
+.navbar-brand {
+	font-size: $large-size;
+}
+#employee {
+	color: $oSeven-color-light;
+	font-size: $medium-size;
+}
+.logout {
+	font-size: $medium-size;
+	color: white;
+
+	&:hover {
+		color: $oSeven-color-light;
+	}
+}
+
+a.nav-link {
+	color: $oSeven-color-dark;
+	font-size: $medium-size;
+}
+a.nav-link.active,
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+	color: $oSeven-color-light;
+}

@@ -1,0 +1,17 @@
+// Variables
+
+// Sizes
+$small-size: 1rem;
+$medium-size: 1.6rem;
+$large-size: 2rem;
+
+// Colors 
+$oSeven-color-light: #00bfde;
+$oSeven-color-dark: #212428;
+
+
+[ng-click],
+ [data-ng-click],
+ [x-ng-click] {
+     cursor: pointer;
+ }

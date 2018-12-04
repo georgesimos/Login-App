@@ -1,0 +1,40 @@
+.form-login {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: $oSeven-color-dark;
+
+	form {
+		width: 100%;
+		max-width: 500px;
+		padding: 15px;
+		margin: auto;
+
+		img {
+			transform: scale(1.2);
+		}
+
+		.form-control {
+			border-radius: 0;
+			padding: 1.4rem 1rem;
+		}
+
+		#username {
+			margin-bottom: $medium-size;
+		}
+
+		#password {
+			margin-bottom: 2.5rem;
+		}
+
+		.btn-block {
+			width: 50%;
+			margin: auto;
+			background-color: $oSeven-color-light;
+			color: white;
+		}
+	}
+}
+
