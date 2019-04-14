@@ -1,4 +1,4 @@
-# Oseven-Login-App
+# Login-App
 Using AngularJS framework, Bootstrap 4 and Sass to build a Web-APP with two pages:
 - Login
 - Employees
